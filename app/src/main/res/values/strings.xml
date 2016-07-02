@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Data Binding Sample</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Data Binding Sample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tech_team">Tech Team Global</string>
+    <string name="change_text">Change Text</string>
+    <string name="enter_age">Enter your age:</string>
+    <string name="setAge">Set Age</string>
+    <string name="adult">You are an adult.</string>
+    <string name="minor">You are a minor.</string>
+    <string name="how_many_cars">How many cars do you own?</string>
+    <string name="my_name" formatted="false">My full name is %s %s.</string>
+</resources>

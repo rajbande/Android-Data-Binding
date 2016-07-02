@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals
+        name="carCount">
+        <item quantity="one">I own one car.</item>
+        <item quantity="other">I own %d cars.</item>
+    </plurals>
+</resources>

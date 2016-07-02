@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="superuser"
+            type="com.techteam.databinding.viewmodels.SuperUser"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@android:style/TextAppearance.Holo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{superuser.firstName}"/>
+
+        <TextView
+            style="@android:style/TextAppearance.Holo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{superuser.lastName}"/>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_text"/>
+    </LinearLayout>
+</layout>
